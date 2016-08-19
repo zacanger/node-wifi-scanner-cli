@@ -1,7 +1,7 @@
 {
   "name": "node-wifi-scanner-cli",
   "description": "a cli for node-wifi-scanner",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Zac Anger",
     "email": "zac@zacanger.com",

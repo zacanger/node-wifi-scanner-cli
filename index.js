@@ -6,5 +6,5 @@ scanner.scan((err, networks) => {
   if (err) {
     return console.error(err)
   }
-  console.log(networks)
+  console.log(JSON.stringify(networks, null, 2))
 })
