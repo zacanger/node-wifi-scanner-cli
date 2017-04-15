@@ -1,7 +1,7 @@
 {
   "name": "node-wifi-scanner-cli",
   "description": "a cli for node-wifi-scanner",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "author": {
     "name": "Zac Anger",
     "email": "zac@zacanger.com",
@@ -11,6 +11,7 @@
   "main": "index.js",
   "bin": "./index.js",
   "scripts": {
+    "postinstall": "echo 'DEPRECATED. Please use node-wifi-scanner directly instead.'",
     "start": "node index"
   },
   "homepage": "https://github.com/zacanger/node-wifi-scanner-cli#readme",
